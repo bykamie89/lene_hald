@@ -6,47 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/shared.css">
+    <link rel="stylesheet" href="styles/shared.css" />
 
     <title>Lene Hald</title>
   </head>
-  <header>
-    <h1>Logo</h1>
-
-    <button class="toggle-btn">Menu</button>
-    <nav>
-      <ul>
-        <li><a href="#0">About</a></li>
-        <li><a href="#0">Contact</a></li>
-        <li><a href="#0">Terms</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  </header>
   <body>
-    <section id="first section">
-      <div class="section wrapper">
-        <video autoplay muted></video>
-      </div>
-    </section>
-    <section id="second section">
-      <div class="section wrapper">
-        <div class="col"></div>
-        <div class="col">
-          <div class="element1"></div>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Lene Hald</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </div>
-        <div class="col"></div>
+        <a href="#about">About</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
       </div>
-    </section>
-    <section id="third section">
-      <div class="section_wrapper">
-        <div class="col"></div>
-        <div class="col"></div>
-      </div>
-    </section>
-    <script src="javascript/index.js"></script>
-    <script src="javascript/login.js"></script>
+    </header>
+    <main>
+      <section id="first section">
+        <div class="section wrapper">
+          <video autoplay muted></video>
+        </div>
+      </section>
+      <section id="second section">
+        <div class="section wrapper">
+          <div class="col"></div>
+          <div class="col">
+            <div class="element1"></div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </section>
+      <section id="third section">
+        <div class="section_wrapper">
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+      </section>
+      <script src="javascript/index.js"></script>
+      <script src="javascript/login.js"></script>
+    </main>
+    <footer></footer>
   </body>
-  <footer></footer>
 </html>
