@@ -64,6 +64,7 @@ form {
   display: grid;
   gap: 1.3rem;
   margin-bottom: 8rem;
+  padding-top: 50px;
 }
 
 .form-felt {
