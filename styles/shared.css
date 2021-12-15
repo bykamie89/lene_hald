@@ -11,9 +11,17 @@
   box-sizing: border-box;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr minmax(0, 1000px) 1fr;
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
 }
 
 h1,
@@ -37,6 +45,7 @@ header {
   background-color: #f2f2f2;
   text-align: center;
   position: fixed;
+  top: 0;
   z-index: 999;
   width: 100%;
 }
@@ -44,6 +53,7 @@ header {
 .topnav {
   overflow: hidden;
   background-color: #899e83;
+  opacity: 0.6;
 }
 
 .center {
@@ -121,7 +131,7 @@ header {
   display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav a:not(:first-child),
   .dropdown .dropbtn {
     display: none;
@@ -132,7 +142,7 @@ header {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav.responsive {
     position: relative;
   }
