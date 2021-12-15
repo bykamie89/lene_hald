@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="styles/kontakt.css" />
-    <link rel="stylesheet" href="/styles/shared.css" />
+    <link rel="stylesheet" href="styles/shared.css" />
     <script src="/javascript/index.js"></script>
 
     <title>Kontakt</title>
@@ -19,6 +19,7 @@
           <button class="dropbtn">Kollektion</button>
           <div class="dropdown-content">
             <a href="produkt.html">Produkt</a>
+            <a href="kollektion.html">Kolorit</a>
           </div>
         </div>
         <a class="top" href="kontakt.html">Kontakt</a>
@@ -48,7 +49,7 @@
               Tlf:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               +45 5050 3296
             </p>
-            <hr>
+            <hr />
           </div>
           <div class="col_img">
             <img class="img" src="./assets/facade.jpeg" alt="facade" />
@@ -69,19 +70,52 @@
           </div>
 
           <div class="form-felt">
-            <label>
-              Besked
-              <textarea
-                id="besked"
-                type="text"
-                name="besked"
-                rows="5"
-              ></textarea>
-            </label>
+            <label for="besked">Besked</label>
+            <textarea id="besked" name="besked" rows="5"></textarea>
           </div>
           <button type="submit">Indsend</button>
         </form>
       </section>
     </main>
+    <footer>
+      <div class="footer_elements">
+        <div class="footer_element1">
+          <h2>Kontakt mig her</h2>
+          <p>
+            Lene Hald | No99 | Gothersgade 99. 1123 Kbh K. <br />
+            Åben: tirs.- fred. 12:00-17:30, lør. 11:00-15:00 <br />
+            +45 50 50 32 96 | mail@lenehald.dk
+          </p>
+        </div>
+
+        <div class="footer_element2">
+          <h2>Følg os på de sociale medier</h2>
+          <div class="instagram">
+            <a href="https://www.instagram.com/lenehald.dk/" target="_blank">
+              <img
+                src="assets/icon-instagram-w.png"
+                alt="icon-instagram-w"
+                width="10"
+                style="filter: invert(100%); height: 30px; width: 30px"
+              />
+            </a>
+          </div>
+          <div class="facebook">
+            <a
+              href="https://www.facebook.com/Lenehaldjewellery"
+              target="_blank"
+            >
+              <img
+                src="assets/icon-facebook-w.png"
+                alt="icon-facebook-w"
+                style="filter: invert(100%); height: 30px; width: 30px"
+                width="10"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/index.js"></script>
   </body>
 </html>
