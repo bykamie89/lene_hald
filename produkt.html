@@ -16,37 +16,57 @@
     <link rel="stylesheet" href="/your-path-to-fontawsome/css/brands.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"> <h1>Lene Hald</h1></a>
+        <div class="dropdown center top">
+          <button class="dropbtn">Kollektion</button>
+          <div class="dropdown-content">
+            <a href="produkt.html">Produkt</a>
+          </div>
+        </div>
+        <a class="top" href="kontakt.html">Kontakt</a>
+        <a class="top" href="om.html">Om os</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </header>
+
     <main>
       <section id="first_section">
         <div class="section_wrapper">
-          <div class="col">
-            <div class="col1">
-              <div class="imagea">
-                <img src="assets/pro1.jpg" alt="" />
-              </div>
-              <div class="imageb">
-                <img src="assets/pro2.jpg" alt="" />
-              </div>
-              <div class="imagec">
-                <img src="assets/pro3.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="col">
+          <div class="col1">
             <div class="image">
               <img src="assets/pro.jpg" alt="Kollurite" />
             </div>
           </div>
-          <div class="col">
-            <div class="col2">
-              <h1>Kollurite ring</h1>
-              <p class="pris">Pris pris pris</p>
-              <p>
-                Et fint og farverigt pust til hverdagen. Ringen, som er skabt i
-                inspiration af kronjuvelerne og blomster med et elegant udtryk.
-              </p>
+
+          <div class="col2">
+            <div class="imagea">
+              <img src="assets/pro1.jpg" alt="" />
             </div>
+            <div class="imageb">
+              <img src="assets/pro2.jpg" alt="" />
+            </div>
+            <div class="imagec">
+              <img src="assets/pro3.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="col3">
+            <h1>Kollurite ring</h1>
+            <p class="pris"><i>3200</i> kr</p>
+            <p>
+              Med denne ring giver du dig selv et fint og farverigt pust til
+              livets særlige begivenheder. Ringen, som er skabt i inspiration af
+              kronjuvelerne og blomster med et elegant udtryk.
+            </p>
+            <p></p>
             <form>
               <div class="form-felt">
                 <label>
@@ -62,16 +82,16 @@
                 <label>
                   <select name="liste">
                     <option value="">Vælg størrelse</option>
-                    <option value="størrelse">49</option>
-                    <option value="størrelse">50</option>
-                    <option value="størrelse">51</option>
-                    <option value="størrelse">52</option>
-                    <option value="størrelse">53</option>
-                    <option value="størrelse">54</option>
-                    <option value="størrelse">55</option>
-                    <option value="størrelse">56</option>
-                    <option value="størrelse">57</option>
-                    <option value="størrelse">58</option>
+                    <option value="storrelse">49</option>
+                    <option value="storrelse">50</option>
+                    <option value="storrelse">51</option>
+                    <option value="storrelse">52</option>
+                    <option value="storrelse">53</option>
+                    <option value="storrelse">54</option>
+                    <option value="storrelse">55</option>
+                    <option value="storrelse">56</option>
+                    <option value="storrelse">57</option>
+                    <option value="storrelse">58</option>
                   </select>
                 </label>
               </div>
@@ -87,9 +107,13 @@
                   </select>
                 </label>
               </div>
-
-              <button class="button">
-                <i class="fas fa-shopping-basket"></i> Tilføj til kurv
+              <button type="button" class="button">
+                <span class="button_items">
+                  <span class="button_icon">
+                    <ion-icon name="bag-outline"></ion-icon>
+                  </span>
+                  <span class="button_text">Tilføj til kurv</span>
+                </span>
               </button>
             </form>
           </div>
@@ -97,7 +121,7 @@
       </section>
 
       <section id="second_section">
-        <h1>Lad dig inspire</h1>
+        <h1>Lad dig inspirere</h1>
 
         <div class="section_wrapper">
           <div class="image1">
@@ -119,5 +143,9 @@
       </section>
     </main>
     <footer></footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
   </body>
 </html>
