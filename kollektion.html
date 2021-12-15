@@ -11,14 +11,35 @@
     <title>Kolorit kollektion</title>
   </head>
   <body>
+<header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"> <h1>Lene Hald</h1></a>
+        <div class="dropdown center top">
+          <button class="dropbtn">Kollektion</button>
+          <div class="dropdown-content">
+            <a href="produkt.html">Produkt</a>
+          </div>
+        </div>
+        <a class="top" href="kontakt.html">Kontakt</a>
+        <a class="top" href="om.html">Om os</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </header>
+  
     <section id="first_section">
       <h1>Kolorit</h1>
-      <!-- <div class="boks"></div> -->
-      <section class="section_wrapper"></section>
     </section>
 
     <section id="second_section">
+      
       <h2>Om kollektionen</h2>
+      <div class="section_wrapper">
       <p>
         Inspireret af de danske historiske kronjuveler har jeg fortolket disse
         pompøse smykker i et mere moderne og skrøbeligt hverdagsmateriale. Med
@@ -36,11 +57,11 @@
         også for spørgsmål som hvad der er eksklusivt, af hvem og i hvilket
         selskab skal disse smykker bæres.
       </p>
-      <section class="section_wrapper"></section>
+      </div>
     </section>
 
     <section id="third_section">
-      <section class="section_wrapper">
+      <div class="section_wrapper">
         <div class="image1">
           <div class="text">
           <h3>Ringe</h3>
@@ -72,8 +93,9 @@
             <h3>Halskæder</h3>
             </div>
             <img src="assets/kolorit_halssmykke.jpg" alt="kolorit halssmykke" />
-
+        </div>
       </section>
-    </section>
+    <footer></footer>
+    <script src="javascript/index.js"></script>
   </body>
 </html>
