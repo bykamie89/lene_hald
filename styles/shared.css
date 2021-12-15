@@ -51,7 +51,7 @@ header {
 }
 
 .topnav {
-  /* overflow: hidden; */
+  overflow: hidden;
   background-color: #899e83;
   opacity: 0.6;
 }
