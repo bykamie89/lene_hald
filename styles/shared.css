@@ -84,7 +84,7 @@ header {
 
 .dropdown {
   float: left;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .dropdown .dropbtn {
@@ -99,7 +99,7 @@ header {
 }
 
 .dropdown-content {
-  display: none;
+  /* display: none; */
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
