@@ -5,43 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <link rel="stylesheet" href="styles/om.css">
+    <link rel="stylesheet" href="styles/om.css" />
+    <link rel="stylesheet" href="styles/shared.css" />
   </head>
-    <body>
-      <main>
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"> <h1>Lene Hald</h1></a>
+        <div class="dropdown center top">
+          <button class="dropbtn">Kollektion</button>
+          <div class="dropdown-content">
+            <a href="produkt.html">Produkt</a>
+          </div>
+        </div>
+        <a class="top" href="kontakt.html">Kontakt</a>
+        <a class="top" href="om.html">Om os</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </header>
+    <main>
       <section id="first_section">
-        <div class="Overskrift">
-    <h1>Om Lene Hald</h1>
-    </div>
+        <div class="image1">
+          <img
+            src="/assets/lenehaldhaender.jpg"
+            alt="lenehaldhaender"
+            width="500"
+          />
+        </div>
 
-    <div class="section_wrapper">
-    <div class="image1">
-    <img src="lenehaldhaender.jpeg" alt="lenehaldhaender" width="500" />
-    </div>
+        <div class="tekst">
+          <h1>Om Lene Hald</h1>
+          <p>
+            Jeg befinder mig nok et sted imellem den vilde natur og slotsparken.
+            Født og opvokset i et lokalt landbrugsliv på øen Mors, flyttede som
+            ung til Kerteminde, og som voksen til København. Som ung var jeg
+            overbevist om, at jeg skulle være keramiker eller højskolelærer. Var
+            et 1/2 år hos en Keramiker i Spøttrup, havde 3 mdr. praktik hos en
+            glaspuster i Thisted, og har gået på pottemagerskole i Sønderborg.
+            Så opdagede jeg højskolelivet, og havde 4 skønne år i Kerteminde,
+            med højskolen og Faglære uddannelsen i Keramik og smykker, fra
+            Seminariet for Kunst og Håndværk i Kerteminde fra 1998. Hov.. så var
+            også lige noget, med noget teater og kreativ dans på et tidspunkt,
+            men det hele endte jo godt, til sidst med smykkerne. Jeg er
+            uddannede Ædelmetalsformgiver, fra Institut for Ædelmetal i
+            København 2004. Har siden da haft egen virksomhed, med eget
+            smykkebrand, med nu snart år 20 år i faget. Jeg har været en del af
+            forskellige butikssammenslutninger, som Galerie Metal, bærbart og
+            Formverk på Islands Brygge. Men nu er jeg landet, med eget værksted
+            og butik, sammen med min skønne kollega Karen Fly på Gothersgade 99
+            i København. Undervisningen og højskolen har jeg heldigvis ikke helt
+            sluppet, da jeg efterhånden har afholdt en del smykkekurser på bla.
+            Uldum og Engelsholm Højskole, samt weekendkurser gennem FORA
+            fagkursus.
+          </p>
+        </div>
+      </section>
+      <!-- <h1>Historien om Lene Hald</h1> -->
+      <section id="second_section">
+        <div class="video">
+          <video controls src="/assets/lenehald.mp4"></video>
+          <title>Video</title>
+          <h1>Kig indenfor</h1>
+        </div>
+      </section>
 
-    <div class="tekst">
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore,
-      exercitationem quos odio nulla velit dolorum. Labore autem officiis
-      repellendus cumque? Ratione culpa enim qui illum non aliquam cumque, nihil
-      cum!
-    </p>
-  </div>
-  </section>
-
-  <section id="second_section">
-    <div class="section_wrapper">
-    <video controls src="dbdtradeevent.mp4"></video>
-    <title>Video</title>
-  </div>
-  </section>
-
-  <section id="third_section">
-  <div class="section_wrapper">
-    
-  </div>
-</section>
-</main>
-  
+      <section id="fourth_section">
+        <div class="image2">
+          <img src="/assets/kolorit.png" alt="kolorit" width="500" />
+        </div>
+        <div class="image3">
+          <img src="/assets/kolorit1.png" alt="kolorit" width="500" />
+        </div>
+        <div class="image4">
+          <img src="/assets/kolorit2.png" alt="kolorit" width="500" />
+        </div>
+        <div class="image5">
+          <img src="/assets/kolorit3.png" alt="kolorit" width="500" />
+        </div>
+      </section>
+      <!-- <section id="third_section">
+        <div class="section_wrapper">
+          <div class="instagram">
+            <a href="https://www.instagram.com/lenehald.dk/" target="_blank">
+              <img
+                src="assets/icon-instagram-w.png"
+                alt="icon-instagram-w"
+                width="10"
+                style="filter: invert(100%)"
+              />
+            </a>
+          </div>
+          <div class="facebook">
+            <a
+              href="https://www.facebook.com/Lenehaldjewellery"
+              target="_blank"
+            >
+              <img
+                src="assets/icon-facebook-w.png"
+                alt="icon-facebook-w"
+                style="filter: invert(100%)"
+                width="10"
+              />
+            </a>
+          </div>
+        </div>
+      </section> -->
+    </main>
   </body>
 </html>
