@@ -16,7 +16,27 @@
     <link rel="stylesheet" href="/your-path-to-fontawsome/css/brands.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"> <h1>Lene Hald</h1></a>
+        <div class="dropdown center top">
+          <button class="dropbtn">Kollektion</button>
+          <div class="dropdown-content">
+            <a href="produkt.html">Produkt</a>
+          </div>
+        </div>
+        <a class="top" href="kontakt.html">Kontakt</a>
+        <a class="top" href="om.html">Om os</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </header>
+
     <main>
       <section id="first_section">
         <div class="section_wrapper">
@@ -40,11 +60,11 @@
 
           <div class="col3">
             <h1>Kollurite ring</h1>
-            <p class="pris">Pris pris pris</p>
+            <p class="pris"><i>3200</i> kr</p>
             <p>
               Med denne ring giver du dig selv et fint og farverigt pust til
-              hverdagen. Ringen, som er skabt i inspiration af kronjuvelerne og
-              blomster med et elegant udtryk.
+              livets særlige begivenheder. Ringen, som er skabt i inspiration af
+              kronjuvelerne og blomster med et elegant udtryk.
             </p>
 
             <form>
@@ -87,7 +107,14 @@
                   </select>
                 </label>
               </div>
-              <button type="button">Tilføj til kurv</button>
+              <button type="button" class="button">
+                <span class="button_items">
+                  <span class="button_icon">
+                    <ion-icon name="bag-outline"></ion-icon>
+                  </span>
+                  <span class="button_text">Tilføj til kurv</span>
+                </span>
+              </button>
             </form>
           </div>
         </div>
@@ -116,5 +143,9 @@
       </section>
     </main>
     <footer></footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
   </body>
 </html>
