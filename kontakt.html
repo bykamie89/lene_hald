@@ -5,8 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="styles/kontakt.css" />
+    <link rel="stylesheet" href="/styles/shared.css">
+    <script src="/javascript/index.js"></script>
 
-    <title>Document</title>
+    <title>Kontakt</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section id="first_section">
+        <div class="section_wrapper">
+          <div class="col_text">
+            <h1 class="head">Kontakt</h1>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+              ipsam sint assumenda soluta necessitatibus maxime distinctio
+              inventore vero perferendis beatae!
+            </p>
+          </div>
+          <div class="col_img">
+            <img class="img" src="/assets/facade.jpeg" alt="facade" />
+          </div>
+        </div>
+      </section>
+      <section id="second_section">
+        <form class="form">
+          <div class="form-felt">
+            <label for="navn"> Fulde navn </label>
+            <input id="navn" type="text" name="navn" required />
+          </div>
+
+          <div class="form-felt">
+            <label for="email"> E-mail </label>
+            <input id="email" type="email" name="email" required />
+          </div>
+          <div class="form-felt">
+            <label>
+              Besked
+              <textarea id="besked" type="text" name="besked" rows="5"></textarea>
+            </label>
+          </div>
+          <button type="submit">Indsend</button>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
