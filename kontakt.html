@@ -6,43 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="styles/kontakt.css" />
-    <link rel="stylesheet" href="/styles/shared.css">
+    <link rel="stylesheet" href="/styles/shared.css" />
     <script src="/javascript/index.js"></script>
 
     <title>Kontakt</title>
   </head>
   <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"> <h1>Lene Hald</h1></a>
+        <div class="dropdown center top">
+          <button class="dropbtn">Kollektion</button>
+          <div class="dropdown-content">
+            <a href="produkt.html">Produkt</a>
+          </div>
+        </div>
+        <a class="top" href="kontakt.html">Kontakt</a>
+        <a class="top" href="om.html">Om os</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </header>
     <main>
       <section id="first_section">
         <div class="section_wrapper">
           <div class="col_text">
-            <h1 class="head">Kontakt</h1>
+            <h1 class="head move">Kontakt</h1>
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-              ipsam sint assumenda soluta necessitatibus maxime distinctio
-              inventore vero perferendis beatae!
+              No99<br /><br />
+              Skriv til mig ved hjælp af formularen nedenfor eller ring på
+              telefonnummeret<br /><br />
+              Gothersgade 99, 1123 Kbh. K.<br /><br />Åbningstider:<br />
+              Tirsdag-Fredag:&nbsp;&nbsp; 12:00-17:30<br />
+              Lørdag:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              11:00-15:00<br />
+              Tlf:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              +45 5050 3296
             </p>
+            <hr>
           </div>
           <div class="col_img">
-            <img class="img" src="/assets/facade.jpeg" alt="facade" />
+            <img class="img" src="./assets/facade.jpeg" alt="facade" />
           </div>
         </div>
       </section>
       <section id="second_section">
         <form class="form">
-          <div class="form-felt">
-            <label for="navn"> Fulde navn </label>
-            <input id="navn" type="text" name="navn" required />
+          <div class="col">
+            <div class="form-felt1">
+              <label for="navn"> Fulde navn </label>
+              <input id="navn" type="text" name="navn" required />
+            </div>
+            <div class="form-felt2">
+              <label for="email"> E-mail </label>
+              <input id="email" type="email" name="email" required />
+            </div>
           </div>
 
           <div class="form-felt">
-            <label for="email"> E-mail </label>
-            <input id="email" type="email" name="email" required />
-          </div>
-          <div class="form-felt">
             <label>
               Besked
-              <textarea id="besked" type="text" name="besked" rows="5"></textarea>
+              <textarea
+                id="besked"
+                type="text"
+                name="besked"
+                rows="5"
+              ></textarea>
             </label>
           </div>
           <button type="submit">Indsend</button>
