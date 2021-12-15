@@ -51,7 +51,7 @@ header {
 }
 
 .topnav {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #899e83;
   opacity: 0.6;
 }
@@ -84,7 +84,7 @@ header {
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .dropdown .dropbtn {
