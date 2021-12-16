@@ -60,6 +60,7 @@ main section {
 @media screen and (min-width: 700px) {
   #first_section {
     margin-top: 4.3rem;
+    grid-column: 1/4;
   }
 
   #second_section .section_wrapper {
